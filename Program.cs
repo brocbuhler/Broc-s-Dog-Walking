@@ -1,3 +1,4 @@
+// Configurations
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -15,11 +16,30 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+//
 
+//Test Call
 app.MapGet("/api/hello", () =>
 {
     return new { Message = "Welcome to DeShawn's Dog Walking" };
 });
+//
 
+//Test Data
+//
 
+//Get Calls
+//
+
+//Post Calls
+//
+
+//Patch Calls
+//
+
+//Delete Calls
+//
+
+//App Run
 app.Run();
+//

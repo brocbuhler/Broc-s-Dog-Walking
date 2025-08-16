@@ -1,0 +1,7 @@
+public class WalkersDTO
+{
+  int Id { get; set; }
+  string Name { get; set; }
+  string FavoriteBreed { get; set; }
+  int AmountOfOwnedDogs { get; set; }
+}

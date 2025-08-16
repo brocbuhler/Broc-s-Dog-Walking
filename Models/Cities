@@ -1,0 +1,7 @@
+public class Cities
+{
+  int Id { get; set; }
+  string Name { get; set; }
+  Walkers Walker { get; set; }
+  Dogs Dog { get; set; }
+}
